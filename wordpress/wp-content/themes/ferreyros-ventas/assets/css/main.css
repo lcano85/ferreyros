@@ -1,0 +1,78 @@
+.ferreyros__banner--ventas.ferreyros__banner .banner__content .content {
+    max-width: 576px
+}
+
+.ventas__page--tablero {
+    padding: 30px 0
+}
+
+.ventas__page--tablero .tablero__header {
+    margin-bottom: 30px
+}
+
+.ventas__page--tablero .tablero__header .title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 55px;
+    letter-spacing: .2px;
+    color: #3c3c3b;
+    margin: 0 0 20px;
+    text-align: center
+}
+
+.ventas__page--tablero .tablero__header .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -.015em;
+    color: #737373
+}
+
+.ventas__page--requisitos-procesos .container {
+    max-width: 781px;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.ventas__page--maquinarias-accesos {
+    margin-top: 68px;
+    margin-bottom: 68px
+}
+
+@media (min-width:992px) {
+    .ventas__page--tablero {
+        padding: 109px 0
+    }
+    .ventas__page--tablero .tablero__header {
+        margin-bottom: 83px
+    }
+    .ventas__page--tablero .tablero__header .title {
+        font-size: 40px;
+        line-height: 57px
+    }
+    .ventas__page--tablero .tablero__header .text {
+        font-size: 18px;
+        line-height: 26px
+    }
+    .ventas__page--requisitos-procesos .container {
+        margin-top: 140px;
+        margin-bottom: 90px
+    }
+    .ventas__page--maquinarias-accesos {
+        margin-top: 126px;
+        margin-bottom: 126px
+    }
+}
+
+@media (min-width: 992px) {
+    #portal-ventas .ferreyros__header .menu-principal .menu-item {
+        flex: 1;
+    }
+    #portal-ventas .ferreyros__header .menu-principal .menu-item a {
+        margin: 0 auto;
+    }
+}
+
+
+/*# sourceMappingURL=main.css.map */

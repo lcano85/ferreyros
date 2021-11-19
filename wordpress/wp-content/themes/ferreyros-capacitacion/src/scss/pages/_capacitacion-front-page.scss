@@ -1,0 +1,108 @@
+#capacitacion.home{
+    background: #FBFBFB;
+}
+.capacitacion__page--tablero{
+    padding: 32px 0 ;
+    @media (min-width: 992px){
+        padding: 108px 0 54px;
+    }
+    .tablero__header{
+        margin-bottom: 33px;
+        .title{
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 38px;
+            letter-spacing: 0.2px;
+            color: #3C3C3B;
+            text-align: center;
+            @media (min-width: 992px){
+                font-size: 40px;
+                line-height: 57px;
+            }
+        }
+        .text{
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: -0.015em;
+            color: #737373;
+            margin: 0;
+            @media (min-width: 992px){
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+    }
+    .tablero__content{
+        .tablero__avances{
+            margin: 33px 0 54px;
+        }
+        .tablero__list{
+            margin: 33px 0 0;
+        }
+    }
+}
+
+.capacitacion__page--contactanos{
+    padding: 32px 0 ;
+    @media (min-width: 992px){
+        padding: 54px 0 108px;
+    }
+    .contactanos__header{
+        margin-bottom: 32px;
+        .title{
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 38px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #3C3C3B;
+            @media (min-width: 992px){
+                font-size: 40px;
+                line-height: 57px;
+            }
+        }
+        .text{
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: -0.015em;
+            color: #737373;
+            margin:0;
+            @media (min-width: 992px){
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+    }
+    .contactanos__content{
+        margin-top: 32px;
+        .contactanos__item{
+            .enlace{
+                display: block;
+                @media (max-width: 992px){
+                    max-width: 270px;
+                    margin: 0 auto;
+                }
+            }
+            .imagen{
+                width: 100%;
+                display: block;
+                @media (min-width: 992px){                    
+                    margin: auto;
+                    width: auto;
+                    height: 126px;
+                }
+            }
+        }
+    }
+}
+#capacitacion {
+	.ferreyros__banner {
+		.banner__content {
+			.text{font-size: 19px;line-height: 24px;}
+		}
+	}
+}

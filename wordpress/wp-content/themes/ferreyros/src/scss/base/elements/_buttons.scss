@@ -1,0 +1,27 @@
+.ferreyros__btn,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    width: auto;
+    min-width: 214px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    background: #000;
+    border-radius: 6px;
+    padding: 11px 20px;
+    color: $color__text__white !important;
+    display: inline-block;
+    text-decoration: none !important;
+    text-align: center;
+    border-color: #000;
+	&:hover {
+		border-color: #000;
+	}
+
+	&:active,
+	&:focus {
+		border-color: #000;
+	}
+}

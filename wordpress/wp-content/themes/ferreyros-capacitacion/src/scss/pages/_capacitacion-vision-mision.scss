@@ -1,0 +1,82 @@
+.capacitacion__page--vision-mision{
+    padding: 33px 0;
+    @media screen and(min-width:768px){
+        padding: 68px 0;
+    }
+    .container{
+        max-width: 1040px;
+    }
+    .mision-vision__flex-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        @media screen and(min-width:768px){
+            padding-top: 58px;
+        padding-bottom: 58px;
+        }
+    }
+    .mision-vision__flex-row.reverse{
+        @media screen and(min-width:768px) {
+            flex-direction: row-reverse;
+        }
+        .mision-vision__title{
+            text-align: left;
+            @media screen and(min-width:768px) {
+                text-align: right;
+                margin-left: auto;
+            }
+        }
+        .mision-vision__paragraph{
+            @media screen and(min-width:768px){
+                margin-left: 0;
+                margin-right: auto;
+            }
+        }
+    }
+    .mision-vision__title{
+        font-family: "Axiforma";
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        position: relative;
+        display: inline-block;
+        margin: 0;
+        &::before{
+            content: "";
+            width: 100%;
+            position: absolute;
+            height: 10px;
+            background-color:#ffcd11;
+            bottom: 0;
+            left: 0;
+            @media screen and(min-width:768px){
+                height: 27px;
+                width: 100%;
+                max-width: 422px;
+                display: block;
+            }
+        }
+        @media screen and(min-width:768px){
+            font-size: 96px;
+            line-height: 157px;
+            display: block;
+            width: 100%;
+            max-width: 422px;
+        }
+    }
+    .mision-vision__paragraph{
+        font-family: "Axiforma";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        width: 100%;
+        margin-top: 20px;
+        @media screen and(min-width:768px){
+            max-width: 442px;
+            margin-left: auto;
+            margin-top: 0;
+        }
+    }
+}

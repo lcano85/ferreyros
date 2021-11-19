@@ -1,0 +1,13 @@
+.page-template-page-banner-slide-with-accesos-directos{
+    .ferreyros__page--content .container {
+        max-width: 1090px;
+        margin-top: 38px;
+        margin-bottom: 38px;
+    }
+    @media (min-width: 992px){
+        .ferreyros__page--content .container {
+            margin-top: 68px;
+            margin-bottom: 68px;
+        }
+    }
+}

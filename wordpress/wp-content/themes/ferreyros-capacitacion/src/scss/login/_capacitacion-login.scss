@@ -1,0 +1,293 @@
+.login{
+    background: #fff;
+}
+
+#login{
+    width: 95%;
+    max-width: 496px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+    position: absolute;
+    padding: 40px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    @media (min-width: 992px){
+        max-width: 1087px;
+        padding: 172px 40px;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        background: #fff;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+        max-width: 496px;
+    }
+    &::after{
+        content: '';
+        background-image: url(../images/jpgs/portada-login.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 54.3%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -2;
+    }
+    &.login-development{
+        padding: 40px;
+    }
+
+}
+.login h1{
+    width: 100%;
+    margin-bottom: 20px;
+    @media (min-width: 992px){
+        max-width: 251px;
+        margin-bottom: 0;
+    }
+    a{
+        width: 100%;
+        margin: 0;
+        background-image: url(../images/pngs/logo-login.png);
+        background-size: contain;
+        background-position: center;
+        height: 50px;
+        pointer-events: none;
+        cursor: none;
+        @media (min-width: 992px){
+            background-position: left;
+        }
+    }
+}
+.login h2.title{
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #3c3c3b;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 416px;
+    @media (min-width: 992px){
+        font-size: 35px;
+        line-height: 45px;
+        margin: 40px 0 20px;
+        text-align: left;
+    }
+}
+
+.login p.text{
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3C3B;
+    width: 100%;
+    max-width: 416px;
+    text-align: center;
+    @media (min-width: 992px){
+        text-align: left;
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+.login #login_error, .login .message, .login .success {
+    width: 100%;
+    max-width: 416px;
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    @media (min-width: 992px){
+        text-align: left;
+    }
+}
+
+.login form{
+    margin: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 416px;
+}
+#login form p:first-child {
+    margin: 20px 0;
+}
+
+.login form .input, .login input[type=password], .login input[type=text]{
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 0;
+    box-shadow: none;
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444150;
+    padding: 11px 19px;
+    &:-webkit-autofill{
+        background: #FFFFFF;
+    }
+}
+
+.login label{
+    font-family: Axiforma;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444150;
+}
+
+.login label[for="user_login"]{
+    padding-left: 50px;
+    position: relative;
+    margin: 0 0 8px;
+    &:before{
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background: url(../images/pngs/user.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        left: 19px;
+        bottom: 0;
+    }
+}
+
+.login label[for="user_pass"]{
+    padding-left: 50px;
+    position: relative;
+    margin: 0 0 8px;
+    &:before{
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background: url(../images/pngs/fi-rr-lock-alt.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        left: 19px;
+        bottom: 0;
+    }
+}
+.login .button.wp-hide-pw{
+    height: 100%;
+    &:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+    }
+    .dashicons-visibility:before,
+    .dashicons-hidden:before{
+        content: '';
+        background: url(../images/pngs/fi-rr-eye.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+    }
+}
+.forgetmenot{
+    display: none;
+}
+#login form p.submit{
+    display: block;
+    width: 100%;
+    height: auto;    
+    margin: 20px 0;
+    input[type="submit"]{
+        float: none;
+        width: 100%;
+        min-height: 48px;
+        font-family: Axiforma;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 29px;
+        text-align: center;
+        color: #3C3C3B;
+        background: #fff;
+        border: 0;
+        &:focus{
+            box-shadow: none;
+        }
+    }
+}
+#login .wp_google_login__divider{
+    display: none;
+}
+.login #backtoblog, .login #nav{
+    width: 100%;
+    max-width: 416px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    a{
+        font-family: Axiforma;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.015em;
+        color: #737373;
+    }
+}
+#backtoblog{
+    display: none;
+}
+#login .wp_google_login{
+    margin: 20px 0 0;
+    order: 3;
+    width: 100%;
+    max-width: 416px;
+    @media (min-width: 992px){
+        margin: 44px 0 0;
+    }
+}
+.wp_google_login__button-container{
+    margin-top: 0;
+}
+.wp_google_login__button{
+    width: 100%;    
+    margin: 0 auto;
+    font-size: 0;
+    max-width: 307px;
+}
+.wp_google_login__button:after {
+    content: 'Iniciar sesión con Google';
+    font-size: 14px;
+    line-height: 25px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

@@ -1,0 +1,25 @@
+@media (min-width: 992px){
+    .ferreyros__page--content .container, 
+    .ferreyros__page--content .container-lg, 
+    .ferreyros__page--content .container-md, 
+    .ferreyros__page--content .container-sm, 
+    .ferreyros__page--content .container-xl, 
+    .ferreyros__page--content .container-xxl {
+        max-width: 1140px;
+    }
+    
+    .single .container, 
+    .single .container-lg, 
+    .single .container-md, 
+    .single .container-sm, 
+    .single .container-xl, 
+    .single .container-xxl{
+        max-width: 1230px;
+    }
+}
+@media (min-width: 319px){
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}

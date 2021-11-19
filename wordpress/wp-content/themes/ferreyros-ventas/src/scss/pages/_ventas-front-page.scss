@@ -1,0 +1,37 @@
+.ventas__page--tablero{
+    padding: 30px 0;
+    @media (min-width: 992px){
+        padding: 109px 0;
+    }
+    .tablero__header{
+        margin-bottom: 30px;
+        @media (min-width: 992px){
+            margin-bottom: 83px;
+        }
+        .title{
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 55px;
+            letter-spacing: 0.2px;
+            color: #3C3C3B;
+            margin: 0 0 20px;
+            text-align: center;
+            @media (min-width: 992px){
+                font-size: 40px;
+                line-height: 57px;
+            }
+        }
+        .text{
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: -0.015em;
+            color: #737373;
+            @media (min-width: 992px){
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
+    }
+}

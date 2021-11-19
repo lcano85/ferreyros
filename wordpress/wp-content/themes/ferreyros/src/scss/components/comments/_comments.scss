@@ -1,0 +1,33 @@
+.comments-area{
+	max-width: 1040px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	.form-submit{
+		margin: 0;
+	}
+}
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.comment-form-comment{
+	label[for="comment"]{
+		display: none;
+	}
+}
+
+.comment-body{
+	.comment-meta{
+		margin: 0 0 1rem
+	}
+}
+
+.comment-author{
+	padding: 0 0 1rem;
+}
+
+.bypostauthor {
+	display: block;
+	padding: 1rem 0;
+}

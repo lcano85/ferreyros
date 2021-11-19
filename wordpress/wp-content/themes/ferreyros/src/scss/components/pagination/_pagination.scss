@@ -1,0 +1,12 @@
+.page-item:first-child .page-link,
+.page-item.active .page-link{
+    background: $color__yellow;
+    border-color: $color__yellow;
+    color: $color__black;
+}
+.page-link,
+.page-link:focus,
+.page-link:hover{
+    color: $color__black;
+    box-shadow: inherit
+}

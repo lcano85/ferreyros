@@ -1,0 +1,11 @@
+.ventas__page--requisitos-procesos{
+    .container{
+        max-width: 781px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        @media (min-width: 992px){
+            margin-top: 140px;
+            margin-bottom: 90px;
+        }
+    }
+}

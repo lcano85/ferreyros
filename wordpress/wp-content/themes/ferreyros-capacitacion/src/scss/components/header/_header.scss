@@ -1,0 +1,10 @@
+#capacitacion{
+    .ferreyros__header .container{ 
+        max-width: 1216px;
+    }
+    .ferreyros__header .menu-principal{        
+        @media (min-width: 992px){
+            padding-left: 87px;
+        }
+    }
+}

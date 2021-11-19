@@ -1,0 +1,9 @@
+.page-template-page-with-banner{
+    .ferreyros__page--content{
+        @media (min-width: 992px){
+            .container, .ferreyros__page--content .container-lg, .ferreyros__page--content .container-md, .ferreyros__page--content .container-sm, .ferreyros__page--content .container-xl, .ferreyros__page--content .container-xxl {
+                max-width: 1260px;
+            }
+        }
+    }
+}

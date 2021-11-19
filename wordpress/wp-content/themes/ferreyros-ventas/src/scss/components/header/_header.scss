@@ -1,0 +1,12 @@
+#portal-ventas {
+    .ferreyros__header .menu-principal .menu-item {
+        @media (min-width: 992px) {
+            flex: 1;
+        }
+        a {
+            @media (min-width: 992px) {
+                margin: 0 auto;
+            }
+        }
+    }
+}
